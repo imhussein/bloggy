@@ -12,7 +12,7 @@ app.get('/*', (req, res) => {
   res.sendFile(path.join(__dirname + '/build/index.html'));
 });
 
-const server = http.createServer(app);
+http.createServer(app);
 
 // Listen to port 3000
 app.listen(port, () => console.log(`Server started at port ${port}`));
