@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const port = process.env.PORT || 300;
+const port = process.env.PORT || 3000;
 const http = require('http');
 
 // React Static Files
